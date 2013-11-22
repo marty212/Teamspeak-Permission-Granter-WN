@@ -1,0 +1,11 @@
+          <div class="cleaner_h40"></div>
+          
+          
+        </div>
+        
+</div>
+    <div id="templatemo_footer">
+		Designed by WNxJango Fett and WNxSgtCanadian.
+	 </div>
+</body>
+</html>

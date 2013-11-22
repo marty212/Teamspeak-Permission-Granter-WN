@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="../Teamspeak/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../Teamspeak/css/coda-slider.css" type="text/css" charset="utf-8" />
+<title>Your Result is:</title>
+</head>
+<body>
+	<div id="templatemo_wrapper">
+	<div id="templatemo_top">
+    </div>
+    
+	<div id="header">
+            
+            	<div id="sitetite">
+            	</div>
+            
+                <ul class="navigation">
+                    <li><a href="../Teamspeak/login.jsp">Login to get Teamspeak ID</a></li>
+                    <li><a href="../Teamspeak/assign.jsp">Manage Field Ranks</a></li>
+     			 </ul>
+                
+		  </div>
+		  <div class="scroll">
+      <div class="scrollContainer">
+        <div class="panel" id="home">
