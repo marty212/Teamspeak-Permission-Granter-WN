@@ -24,6 +24,7 @@ public class Controller extends HttpServlet {
 
 	private static Roster r = new Roster();
 	private static Process p = new Process(r);
+	
 	  
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
@@ -40,6 +41,7 @@ public class Controller extends HttpServlet {
 		}
 	}
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		r.init(getServletContext().getRealPath("/"));
 		// Get a map of the request parameters
 		PrintWriter out = response.getWriter();
 		Scanner sc = new Scanner(getServletContext().getResourceAsStream("/WEB-INF/firsthalf.txt"));

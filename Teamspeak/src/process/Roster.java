@@ -19,9 +19,9 @@ public class Roster {
 	private HashMap<String, String> storage;
 	private File file;
 	
-	public Roster()
+	public void init(String fileName)
 	{
-		file = new File("users.txt");
+		file = new File(fileName + "/users.txt");
 		storage = new HashMap<String, String>();
 		try {
 			file.createNewFile();
